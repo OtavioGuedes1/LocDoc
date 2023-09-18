@@ -1,2 +1,2 @@
-# locdoc_project
-Projeto do app LocDoc
+# LocDoc_Project
+- Projeto do app LocDoc.
