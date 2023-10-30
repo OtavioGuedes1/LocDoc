@@ -4,37 +4,44 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
+
 .header {
   background-color: rgb(156, 155, 155);
   padding: 0px;
   text-align: center;
 }
+
 .topnav {
   overflow: hidden;
   background-color: rgb(211, 192, 18);
 }
+
 .topnav a {
   float: left;
   display: block;
   color: #fdfdfd;
   text-align: center;
-  padding: 20px 50px;
-  font-size: 15pt;
+  padding: 10px 25px;
+  font-size: 10pt;
   text-decoration: none;
   font-family: "Love Ya Like A Sister", cursive;
 }
+
 .topnav a:hover {
   background-color: aqua;
   text-decoration: none;
 }
-.topnav a:last-child{
+
+.topnav a:last-child {
   float: right;
   background-color: rgb(241, 147, 40);
   color: #fffefe;
 }
+
 .column.side {
   width: 25%;
 }
+
 .column.middle {
   width: 50%;
   text-align: justify;
@@ -45,7 +52,9 @@
   display: table;
   clear: both;
 }
+
 @media screen and (max-width: 600px) {
+
   .column.side,
   .column.middle {
     width: 100%;
@@ -55,32 +64,70 @@
 h1 {
   padding: 20px 0px 20px 0px;
 }
+
 .menu {
   width: 300px;
   margin: 0 auto;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
 }
+
 .prato {
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid #ccc;
 }
+
 .prato:last-child {
   border-bottom: none;
 }
+
 .prato h2 {
   font-size: 18px;
   margin: 0;
 }
+
 .prato p {
   font-size: 16px;
   margin: 5px 0;
 }
+
 ul {
   list-style-type: none;
 }
+
 ul a {
   text-decoration: none;
   color: black;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.map-responsive {
+
+  overflow: hidden;
+
+  padding-bottom: 56.25%;
+
+  position: relative;
+
+  height: 0;
+
+}
+
+.map-responsive iframe {
+
+  left: 0;
+
+  top: 0;
+
+  height: 100%;
+
+  width: 100%;
+
+  position: absolute;
+
 }
